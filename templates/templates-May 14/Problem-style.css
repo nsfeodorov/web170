@@ -1,0 +1,400 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+  background-color: #f0f0f5;
+  font-family: 'Open Sans', sans-serif;       
+}
+
+
+/* type styles */
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0em 1em .5em 1em;
+	padding-top: .75em;
+}
+
+p {
+	margin: .5em 1em 0em 1em;
+	padding-bottom: 1em;
+	
+}
+
+/* unvisited link */
+a:link {
+    color: #00004d;
+	text-decoration: none;
+}
+
+a:link .john {
+	color: #262626;
+	text-decoration: none;
+}
+/* visited link */
+a:visited {
+    color: #008080;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #e67300;
+	text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #e67300;
+	text-decoration: none;
+}
+
+#navigation {
+	background-color: #fff;
+	width: 90%;
+	margin:auto;
+}
+
+#navigation ul li.john {
+ 	float:left;
+	margin: 0.2em 0.2em 1em .5em;
+	font-size: 40px;
+	color: #1f1f2e;
+}
+
+#navigation ul {
+	overflow: hidden;
+	padding: 10px;
+	margin: 0;
+}
+
+#navigation ul li {
+	display: inline;
+	list-style: none;
+	float: right;
+	margin-right: 20px;
+	text-transform: uppercase;
+	color: #1f1f2e;
+	font-size: 18px;
+  font-weight: 300;	
+}
+
+
+/* ----- home page css ----- */
+
+.image-slider {
+	margin: auto;
+	align-content: center;
+	width: 90%;
+}
+
+.mySlides {
+	display:none;
+}
+
+#home-content {
+	width: 90%;
+	margin: auto;
+	background-color: #fff;
+}
+
+.introduction {
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: column wrap;
+	margin: auto;
+	background-color: #fff;
+	width: 90%;
+	padding: 1.2em;
+	justify-content: center;
+}
+
+.intro-h2 {
+	display: flex;
+	flex-flow: wrap;
+	min-width: 800px;
+	margin:auto;
+}
+
+.synopsis {
+	display: flex;
+	flex-flow: wrap;
+	max-width: 800px;
+	margin:auto;
+}
+
+.gallery {
+	display: flex;
+	flex-flow: row wrap; 
+	justify-content:center;
+	background-color: #fff;
+	width: 90%;
+	margin: auto;
+}
+
+.list-projects {
+	margin: 1em 1em 2em 1em;
+}
+.list-projects p {
+	max-width: 320px;
+	margin-top: 1em;
+}
+
+/*.gallery-text {
+	align-content: flex-start;
+	margin: 1em 1em 0 1em;
+	max-width: 320px;
+}*/
+
+
+/* ----- main page css ----- */
+
+#middle {
+	width: 90%;
+	margin: auto;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+#content {
+	width: 60%;
+	float: left;
+}
+
+#sidebar {
+	width: 28%;
+	float: right;
+	border-left: dashed 2px #f0f0f5;
+	overflow: hidden;
+}
+
+
+.proj {
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+	margin: auto;	
+}
+
+.proj-img {
+	margin: 2em 1.5em 2em 1em;
+	max-width: 160px;
+	max-height: 150px;
+}
+
+.proj-text {
+	margin: 2em 2em 2em 1em; 
+}
+
+
+.footer {
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+	margin: auto;
+	background-color: #1f1f2e;
+	width: 90%;
+	justify-content:center;	
+}
+
+#FB {	
+	flex: 1 1 0;
+	margin: 4em .5em 5em .5em;
+	text-align: center;
+	max-width: 150px;
+	max-height: 150px;
+}
+
+#instagram {
+  flex: 1 1 0;
+	margin: 4em .5em 5em .5em;
+	text-align: center;
+	max-width: 150px;
+	max-height:150px;
+}
+
+#contactBtn {
+  flex: 1 1 0; 
+	margin: 4em .5em 5em .5em;
+	text-align: center;
+	max-width: 150px;
+	max-height: 150px;
+}
+
+/* Style all font awesome icons */
+
+/* social buttons 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+	margin: 2px;
+	border-radius: 50%;
+}
+
+/* hover effect 
+
+.fa:hover {
+    opacity: 0.9;
+	text-decoration: none;
+}
+
+.fa-facebook{
+  background: #fff;
+  color: black;
+}
+
+.fa-instagram {
+  background: #fff;
+  color: black;
+}
+
+.fa-envelope {
+  background: #fff;
+  color: black;
+}
+
+*/
+
+@media all and (max-width: 975px) {
+	
+	.image-slider {
+	display: none;	
+}
+	
+	#content {
+	width: 100%;
+	float: none;
+}
+	
+	#sidebar {
+	width: 100%;
+	float: none;
+	border-left: none;
+	border-top: dashed 2px #f0f0f5;
+}
+}
+
+
+@media all and (max-width: 500px) {
+	
+	body {
+  	background-color: #fff;
+	}
+    
+	#navigation {
+	width: 100%;
+}
+
+	#navigation ul li.john {
+	margin: auto;
+	margin-bottom: 20px;
+	font-size: 40px;
+	color: black;
+}	
+	
+	#navigation ul li {
+	display: block;
+	width: 100%;
+	list-style: none;
+	margin: auto;
+		margin-bottom: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #14213D;
+	font-size: 18px;
+  font-weight: 300;	
+}
+	
+	/*--- home page---*/
+	
+	.image-slider {
+	display: none;	
+}
+	
+	.introduction{
+		width:100%;
+		padding: 0.1em;
+	}
+	
+	.intro-h2 {
+	display: flex;
+	flex-flow: wrap;
+	min-width: 400px;
+	margin:auto;
+}
+	
+	.gallery {
+	display: flex;
+	flex-flow: row wrap; 
+	justify-content: space-around;
+	width: 100%;
+	margin:auto;
+}
+	
+	.list-projects {
+	align-content: flex-end;
+	margin: 1em 0 1em 0;
+	width: 100%;
+}	
+	.list-projects p {
+	margin: 1em 0 0.5em 0;	
+}
+	
+	/*---main page---*/
+	
+	
+.proj {
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+	margin: auto;	
+}
+
+.proj-img {
+	margin: 1em 0em 1em 1em;
+	max-width: 160px;
+	max-height: 150px;
+}
+
+.proj-text {
+	margin: 0.2em 0.2em 1em 1em; 
+}
+
+	
+	
+	/*---footer---*/
+	
+
+	.footer {
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: column wrap;
+    flex-direction: column;
+	align-items: center;
+	width: 100%; 
+}
+	
+	#FB {
+	margin: 2em 0em 0em 0em;
+	width: 100%;
+	text-align: center;	
+}
+
+	#instagram {
+	margin: 2em 0em 0em 0em;
+		width: 100%;
+	text-align: center;
+		
+}
+
+	#contactBtn {
+	margin: 2em 0em 5em 0em;
+		width: 100%;
+	text-align: center;
+		max-height: 20px;
+}
+}
