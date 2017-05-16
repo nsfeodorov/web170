@@ -12,7 +12,7 @@
 
 <?php endwhile; endif; // end the WordPress loop ?>
   
-	  <small>index.php</small>
+	  <small>single.php</small>
   
       </div> <!--content-->
     
