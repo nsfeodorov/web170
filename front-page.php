@@ -64,7 +64,15 @@ function carousel() {
     	
    </section><!--gallery-->
    
-   <small>front-page.php</small>
+	  <h3>Latest news</h3>
+<?php rewind_posts(); // stop the page loop above ?>
+<?php query_posts('showposts=5'); // start the post loop and pull 5 posts ?>
+<?php while (have_posts()) : the_post(); // start posts loop ?>
+<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+<?php endwhile; // end posts loop ?>
+   
+   
+	  <p><small>front-page.php</small></p>
 	
    </div> <!--home-content-->
     
