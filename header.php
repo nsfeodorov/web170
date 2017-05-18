@@ -26,7 +26,7 @@
         
  <div id="header">
     
- <h1 class="john" style="display: inline-block"> <a href="#">John Feodorov</a></h1>
+ <h1 class="john" style="display: inline-block"> <a href="http://www.nicolefeodorov.com/scc/web170/wordpress">John Feodorov</a></h1>
  
  <!--begin navigation--> 
  <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => 'div', 'container_id' => 'navigation', ) ); ?>

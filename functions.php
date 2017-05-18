@@ -15,5 +15,10 @@ register_nav_menus(array(
 ));
 //
 
+//create post thumbnails
+add_theme_support( 'post-thumbnails' );
+//
+
+
 
 ?>

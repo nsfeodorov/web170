@@ -1,7 +1,7 @@
 
 </div><!--middle-->
     
-    <section class="footer">
+    <div id="footer">
     
 		<div id="FB"><a href="#" class="fa fa-facebook"></a>
     </div><!--FB-->
@@ -14,13 +14,11 @@
 		<a href="#" class="fa fa-envelope"></a>
     </div><!--contact-->
 	
-   </section> <!--footer-->
+   </div><!--footer--> 
 
   
    <!--WordPress footer-->   
-<?php wp_footer(); ?>
-
-    
+<?php wp_footer(); ?>    
     </body>
 </html>
     
