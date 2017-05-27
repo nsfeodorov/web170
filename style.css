@@ -1,3 +1,4 @@
+
 /*
 Theme Name: N-Feodorov
 Theme URI: http://www.nicolefeodorov.com/scc/web170/
@@ -225,6 +226,9 @@ h1.john {
 	text-decoration: none;
 }
 
+/*--#toggle {
+	display: none;
+} --*/
 
 #navigation {
 	width: 100%;
@@ -266,6 +270,7 @@ ul.sub-navigation-items {
 #navigation ul li ul.sub-menu {
 display: none;
 }
+
 
 
 /* ----- main page css ----- */
@@ -318,6 +323,22 @@ article#post.post {
 	overflow: hidden;
 }
 
+#sub-navigation {
+	margin-bottom: 20px;
+}
+
+#quote {
+	background-color: #f0f0f0;
+	margin-bottom: 20px;
+} 
+
+blockquote.sidebar {
+	
+	padding: 15px 15px 30px 15px;
+	font-size: 1.15em;
+	line-height: 150%;
+	font-style: italic;		
+}
 
 /* ----- home page css ----- */
 
