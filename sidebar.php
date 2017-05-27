@@ -1,5 +1,4 @@
 
-
 <div id="sidebar">
      
      <!--sub navigation-->
@@ -48,7 +47,10 @@
     
 	</div><!--end of quote loop-->
 	
-	
-	
+	<!--begin dynamic sidebar-->
+	<?php dynamic_sidebar(1); ?> 
+	<!--end dynamic sidebar-->
+
+
 
 	</div><!--end sidebar-->
